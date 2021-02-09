@@ -1,0 +1,124 @@
+@charset "UTF-8";
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url(STJ-01.png);    
+}
+main {
+    width: 598px;
+    height: 3000px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: medium;
+}
+.submit_btn {
+    width: 150px;
+    height: 30px;
+    background-color: #F1AFC6;
+    border-radius: 10px;
+    font-family: andika;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;  
+}
+.submit_btn:hover { -webkit-box-shadow: 5px 5px 43px 1px #000000;
+    box-shadow: 5px 5px 43px 1px #000000;}
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+    background-color: #F1AFC6;
+}
+aside {
+    width: 130px;
+    height: 600px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+}
+#container{
+	width:768px;
+	height:auto;
+	background-color:#ffffff;
+	margin:auto;
+	}
+ body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: medium;
+    color: #2A2A2A;
+    background-image: url(Background.jpg);
+    background-size: cover;	
+    }
+
+
+img {
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    height: auto;
+}
+h1{
+    font-family: yellowtail;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    padding-top: 0px;
+}
+nav {
+    width: 768px;
+	height: 50px;}
+h3{
+    font-family: yellowtail;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+p{
+    font-family: andika;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 60px;
+    margin-right: 40px;
+    font-family: andika;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+#container nav ul {
+    margin: auto;
+    width: 445px;
+}
+nav a:link {
+    color: #F1AFC6;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color:#F1AFC6;
+	border-radius:10px }
+nav a:active {
+    text-decoration: none;
+    color: #B7DEF2;
+}
